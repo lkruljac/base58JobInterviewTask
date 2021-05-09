@@ -1,0 +1,6 @@
+C:\Users\Luka\Desktop\base58\ConsumerApp\Common\bin\Debug\Common.dll
+C:\Users\Luka\Desktop\base58\ConsumerApp\Common\bin\Debug\Common.pdb
+C:\Users\Luka\Desktop\base58\ConsumerApp\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Luka\Desktop\base58\ConsumerApp\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Luka\Desktop\base58\ConsumerApp\Common\obj\Debug\Common.dll
+C:\Users\Luka\Desktop\base58\ConsumerApp\Common\obj\Debug\Common.pdb
