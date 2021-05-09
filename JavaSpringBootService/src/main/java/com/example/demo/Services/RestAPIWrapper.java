@@ -13,7 +13,7 @@ import java.net.URL;
 //GET Method is only one that is needed for this task, so this is only part of wrapper
 public class RestAPIWrapper {
 
-    //GET
+    //GET with no inputs
     public static JSONObject GET(String url) throws Exception{
 
             URL urlForGetRequest = new URL(url);

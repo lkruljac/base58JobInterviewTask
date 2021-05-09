@@ -5,6 +5,7 @@ import net.minidev.json.JSONObject;
 import java.sql.Timestamp;
 
 public class Ticker {
-    public Timestamp creationTime;
+    public String CreationTime;
     public JSONObject Data;
+    public String PairName;
 }
