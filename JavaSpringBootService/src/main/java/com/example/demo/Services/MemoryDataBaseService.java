@@ -27,6 +27,6 @@ public class MemoryDataBaseService {
     public static List<Ticker> Select(String date, String pairName){
         return DataBase.Tickers.stream().filter(
                 ticker -> pairName.equals(ticker.PairName)
-                && date.equals(ticker.CreationTime.toString())).collect(Collectors.toList());
+                && ticker.CreationTime.toString().startsWith(date)).collect(Collectors.toList());
     }
 }
