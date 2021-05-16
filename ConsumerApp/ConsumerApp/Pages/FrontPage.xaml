@@ -33,11 +33,7 @@
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Label
-                VerticalAlignment="Center"
-                Grid.Column="0"
-                Content="List all entered arguments">
-            </Label>
+   
             <Label
                 VerticalAlignment="Center"
                 HorizontalAlignment="Right"

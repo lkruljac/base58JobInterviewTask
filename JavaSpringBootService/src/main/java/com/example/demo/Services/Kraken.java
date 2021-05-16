@@ -20,7 +20,7 @@ public class Kraken {
             for(String pair: PariNames) {
                 ticker = new Ticker();
                 ticker.PairName = pair;
-                ticker.Data = RestAPIWrapper.GET("https://api.kraken.com/0/public/Ticker?pair="+pair);
+                ticker.Data = RestAPIWrapper.GET(SourceAPIBaseURL+"Ticker?pair="+pair);
                 ticker.CreationTime = new Timestamp(
                         System.currentTimeMillis()).toString().replace(' ', '_');
                 MemoryDataBaseService.Insert(ticker);

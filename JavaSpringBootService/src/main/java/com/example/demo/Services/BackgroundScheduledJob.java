@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BackgroundScheduledJob {
 
-    private static int periodInMinutes = 30;
+    private static int periodInMinutes = 1;
 
     public static void Start(){
         ScheduledExecutorService executorService;
@@ -15,7 +15,7 @@ public class BackgroundScheduledJob {
                 BackgroundScheduledJob::MainCallback,
                 0,
                 periodInMinutes,
-                TimeUnit.SECONDS);
+                TimeUnit.MINUTES);
     }
 
     public static void MainCallback(){
