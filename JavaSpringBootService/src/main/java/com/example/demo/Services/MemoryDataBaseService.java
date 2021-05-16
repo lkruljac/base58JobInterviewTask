@@ -12,7 +12,7 @@ public class MemoryDataBaseService {
 
     public static void Insert(Ticker ticker){
         DataBase.Tickers.add(ticker);
-        System.out.println("Ticker added to memory DB" + ticker.CreationTime.toString());
+        System.out.println("Ticker added to memory DB: " + ticker.CreationTime.toString());
 
     }
 

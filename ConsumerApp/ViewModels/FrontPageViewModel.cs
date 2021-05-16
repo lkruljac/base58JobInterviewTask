@@ -83,11 +83,11 @@ namespace ViewModels
             
             try
             {
-                if(Date != string.Empty && PairName != string.Empty)
+                if( (Date != string.Empty && Date !=null) && (PairName != string.Empty && PairName!=null))
                 {
                     Tickers = TickerAPIWrapper.GetTickers(Date, PairName.ToUpper());
                 }
-                else if(PairName != string.Empty) 
+                else if((PairName != string.Empty && PairName != null)) 
                 {
                     Tickers = TickerAPIWrapper.GetTickers(PairName.ToUpper());
                 }
